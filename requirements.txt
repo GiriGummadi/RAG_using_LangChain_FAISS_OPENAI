@@ -1,0 +1,22 @@
+# Core
+langchain==0.1.20
+langchain-community==0.0.38
+faiss-cpu==1.8.0.post1
+openai>=1.30.0
+python-dotenv>=1.0.1
+
+# Document loading / parsing
+pypdf>=4.2.0
+unstructured>=0.14.3
+markdown>=3.6
+beautifulsoup4>=4.12.3
+
+# Notebook and utilities
+jupyter>=1.0.0
+ipykernel>=6.29.0
+
+# Helpers (for chunking, evaluation, etc.)
+numpy>=1.26.0
+pandas>=2.2.0
+tiktoken>=0.7.0
+ragas>=0.1.14
